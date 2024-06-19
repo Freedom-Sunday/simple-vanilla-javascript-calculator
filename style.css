@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div{
+    height: 80%;
+    width: 22%;
+    background: linear-gradient(silver, black);
+    border-radius: 8px;
+    padding: 0 1%;
+}
+
+main div input{
+    width: 99%;
+    height: 15%;
+    margin-top: 13%;
+    margin-bottom: 8%;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: right;
+    background-color: silver;
+    border: none;
+    outline: none;
+    color: rgb(37, 37, 37);
+
+}
+
+main div button{
+    height: 70px;
+    width: 68px;
+    border-radius: 40px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: rgb(37, 37, 37);
+    margin-top: 2%;
+}
+
+
+main div #gold{
+    background-color: goldenrod;
+}
+
+main div #dargrey{
+    background-color: rgb(177, 177, 177);
+    color: black;
+}
+
+main div .zero{
+    width: 137px;
+    text-align: left;
+    padding-left: 9%;
+}
+
+main div button:hover{
+    background-color: rgb(63, 63, 63); 
+}
+
+main div #gold:hover{
+    background-color: darkorange; 
+}
+
+main div #dargrey:hover{
+    background-color: gray; 
+}

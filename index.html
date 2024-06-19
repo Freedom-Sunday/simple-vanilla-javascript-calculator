@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./jquery-3.6.4.min.js"></script> -->
+</head>
+<body>
+
+    <main>
+        <div class="calc">
+            <input type="text" id="display" disabled placeholder="0"> <br>
+
+            <button id="dargrey" class="ac" onclick="ac()">AC</button>
+            <button id="dargrey" class="root" onclick="root()">√</button>
+            <button id="dargrey" class="raise" onclick="raise()">^</button>
+            <button id="gold" class="divide" onclick="divide()">/</button> <br>
+
+            <button class="seven" onclick="seven()">7</button>
+            <button class="eight" onclick="eight()">8</button>
+            <button class="nine" onclick="nine()">9</button>
+            <button  id="gold" class="multiply" onclick="multiply()">X</button> <br>
+
+            <button class="four" onclick="four()">4</button>
+            <button class="five" onclick="five()">5</button>
+            <button class="six" onclick="six()">6</button>
+            <button id="gold" class="minus" onclick="minus()">-</button> <br>
+
+            <button class="one" onclick="one()">1</button>
+            <button class="two" onclick="two()">2</button>
+            <button class="three" onclick="three()">3</button>
+            <button id="gold" class="plus" onclick="plus()">+</button> <br>
+
+            <button class="zero" onclick="zero()">0</button>
+
+            <button class="dot" onclick="dot()">.</button>
+
+            <button  id="gold" class="equals" onclick="equals()">=</button>
+
+        </div>
+    </main>
+    
+    <script src="./calc.js"></script>
+</body>
+</html>
